@@ -1,0 +1,342 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>OBREZKA</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/cart-icon.css" />
+
+  <script src="https://kit.fontawesome.com/e4a8df432c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <style>
+    @media only screen and (max-width: 550px) {
+      .item-images {
+        display: inline-block;
+        position: relative;
+        /* border: 2px solid red; */
+        text-align: center;
+      }
+
+    
+      .explore-btn1 {
+        font-family: "Montserrat";
+        position: relative;
+        top: 230px;
+        left: 40px;
+
+        font-size: small;
+        display: inline-block;
+      }
+
+      .explore-btn2 {
+        font-family: "Montserrat";
+        position: relative;
+        top: 230px;
+        right: 120px;
+        font-size: small;
+        display: inline-block;
+      }
+
+
+      /* For phonese ig */
+
+      /* @media only screen and (max-device-width: px) {
+      .item-images {
+        display: inline-block;
+        position: relative;
+        border: 2px solid red;
+        text-align: center;
+      }
+      .explore-btn {
+        position: relative;
+        left: 40%;
+      }
+      .navbar-brand {
+        font-family: ;
+        font-size: 32rem;
+      }
+
+      .navbar-toggler {
+        font-size: 1.5rem;
+      }
+
+      .carousel-image {
+        height: fit-content;
+
+      }
+    } */
+    }
+
+    @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700&display=swap");
+  </style>
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html" id="obrezka">OBREZKA</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Tops
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">New Arrivals</a>
+                <a class="dropdown-item" href="#">Hoodies</a>
+                <a class="dropdown-item" href="#">Oversized </a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Pants
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">New Arivals</a>
+                <a class="dropdown-item" href="#">Cargos</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Accessories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link href"> Login/SignUp </a>
+              <!-- Here there we will implement an icon of Shopping cart -->
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-4" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn btn-outline-dark my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <button style="border: 0px solid white" class="cart-icon button-cart btn btn nav-link my-2 my-sm-0"
+                type="button">
+                <img class="cart-icon" src="images/shopping-cart.png" alt="" width="30px" height="30px" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+        <!-- Title -->
+        
+  <!-- Sliding Section -->
+
+  <!-- Features -->
+
+  <section id="new-arrivals">
+    <h3 style="padding-bottom: 15px">Tees</h3>
+
+    <div class="row">
+      <div class="item-images col-xl-3 col-md-4 col-12">
+        <a class="link-item" href="tshirt1.html"><img class="new-arrival-item" src="items/tshirt 1/pic1.webp" alt=""
+            width="300px" height="300px" /></a>
+        <a class="link-item" style="text-decoration: none;" href="tshirt1.html">
+          <h4 class="item-title">Oversized Tee</h4>
+        </a>
+        <span class="markprice">₹599</span><strike class="cancelled-price">₹999</strike>
+      </div>
+      <div class="item-images col-xl-3 col-md-4 col-12">
+        <a class="link-item" href="cargo1.html"><img class="new-arrival-item" src="items/cargo1/pic1.webp" alt=""
+            width="300px" height="300px" /></a>
+        <a class="link-item" style="text-decoration: none;" href="cargo1.html">
+          <h4 class="item-title">Oversized Cargos</h4>
+        </a>
+        <span class="markprice">₹1799</span><strike class="cancelled-price">₹2799</strike>
+      </div>
+      <div class="item-images col-xl-3 col-md-4 col-12">
+        <a class="link-item" href="tshirts2.html"><img class="new-arrival-item" src="items/tshirt 2/pic1.webp" alt=""
+            width="300px" height="300px" /></a>
+        <a class="link-item" style="text-decoration: none;" href="tshirts2.html">
+          <h4 class="item-title">Oversized Tee</h4>
+        </a>
+        <span class="markprice">₹599</span><strike class="cancelled-price">₹999</strike>
+      </div>
+      <div class="item-images col-xl-3 col-md-4 col-12">
+        <a class="link-item" href="cargo1.html"><img class="new-arrival-item" src="items/cargo1/pic1.webp" alt=""
+            width="300px" height="300px" /></a>
+        <a class="link-item" style="text-decoration: none;" href="cargo1.html">
+          <h4 class="item-title">Oversized Cargos</h4>
+        </a>
+        <span class="markprice">₹1799</span><strike class="cancelled-price">₹2799</strike>
+      </div>
+      <div class="item-images col-xl-3 col-md-4 col-12">
+        <a class="link-item" href="tshirt1.html"><img class="new-arrival-item" src="items/tshirt 1/pic1.webp" alt=""
+            width="300px" height="300px" /></a>
+        <a class="link-item" href="tshirt1.html" style="text-decoration: none;">
+          <h4 class="item-title">Oversized Tee</h4>
+        </a>
+        <span class="markprice">₹599</span><strike class="cancelled-price">₹999</strike>
+      </div>
+      <div class="item-images col-xl-3 col-md-4 col-12">
+        <a class="link-item" href="cargo1.html"><img class="new-arrival-item" src="items/cargo1/pic1.webp" alt=""
+            width="300px" height="300px" /></a>
+        <a class="link-item" style="text-decoration: none;" href="cargo1.html">
+          <h4 class="item-title">Oversized Cargos</h4>
+        </a>
+        <span class="markprice">₹1799</span><strike class="cancelled-price">₹2799</strike>
+      </div>
+      <div class="item-images col-xl-3 col-md-4 col-12">
+        <a class="link-item" href="tshirts2.html"><img class="new-arrival-item" src="items/tshirt 1/pic5.webp" alt=""
+            width="300px" height="300px" /></a>
+        <a class="link-item" style="text-decoration: none;" href="tshirts2.html">
+          <h4 class="item-title">Oversized Tee</h4>
+        </a>
+        <span class="markprice">₹599</span><strike class="cancelled price">₹999</strike>
+      </div>
+      <div class="item-images col-xl-3 col-md-4 col-12">
+        <a class="link-item" href="cargo1.html"><img class="new-arrival-item" src="items/cargo1/pic3.webp" alt=""
+            width="300px" height="300px" /></a>
+        <a class="link-item" style="text-decoration: none;" href="cargo1.html">
+          <h4 class="item-title">Oversized Cargos</h4>
+        </a>
+        <span class="markprice">₹1799</span><strike class="cancelled price">₹2799</strike>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <div class="container-footer" style="background-color: rgb(240, 240, 240);">
+      <div class="row" style="padding-top: 10px;">
+        <div class=" footer-col-items col-lg-3">
+          <ul class="col1-footer" style="list-style-type: none;">
+            <li><a href="#" class="Linklist-item-title">
+                <h4> ABOUT US</h4>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6>About Us</h6>
+              </a> </li>
+            <li><a href="#" class="Linklist-item">
+                <h6> Store</h6>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> Press</h6>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> Terms and Conditions</h6>
+              </a></li>
+          </ul>
+        </div>
+        <div class=" footer-col-items col-lg-3">
+
+          <ul class="col2-footer" style="list-style-type: none;">
+            <li><a href="#" class="Linklist-item-title">
+                <h4> MY ACCOUNT</h4>
+              </a></li>
+            <li><a href="#" class="Linklist-item" style="text-align: left;">
+                <h6>Gift Card</h6>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> New Arrivals</h6>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> Sale</h6>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> Blog</h6>
+              </a></li>
+
+          </ul>
+        </div>
+        <div class=" footer-col-items col-lg-3">
+
+          <ul class="col3-footer" style="list-style-type: none;">
+            <li><a href="#" class="Linklist-item-title">
+                <h4> CONTACT US</h4>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> Exchanges/Cancellation</h6>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> Pricing</h6>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> Privacy Policy</h6>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> Cookie Policy</h6>
+              </a></li>
+            <li><a href="#" class="Linklist-item">
+                <h6> The OBREZKA Pleasures Now Giveaway</h6>
+              </a></li>
+          </ul>
+        </div>
+        <div class=" footer-col-items col-lg-3">
+          <h4 class="Linklist-item-title" style="text-align: center;">STAY CONNECTED</h4>
+          <div style="display: inline-block;" class="socials">
+            <h1 style="text-align: center; font-size: 30px;">Our Socials</h1>
+
+            <div style="display: inline-block; padding-right: 8px;" style="padding-top: 10px;" class="row-footer">
+              <a href="https://www.instagram.com/burhan.khair/"><img class="socials-logo"
+                  src="footer-icons/facebook.png"></a>
+
+            </div>
+            <div style="display: inline-block; padding-right: 8px;" class="row-footer">
+              <a href="https://www.instagram.com/burhan.khair/"><img class="socials-logo"
+                  src="footer-icons/twitter.png"></a>
+
+            </div>
+            <div style="display: inline-block; padding-right: 8px;" class="row-footer">
+              <a href="https://www.instagram.com/burhan.khair/"><img class="socials-logo"
+                  src="footer-icons/instagram.png"></a>
+
+            </div>
+            <div style="display: inline-block; padding-right: 8px;" class="row-footer">
+              <a href="https://www.instagram.com/burhan.khair/"><img class="socials-logo"
+                  src="footer-icons/google-plus.png"></a>
+
+            </div>
+            <div style="display: inline-block; padding-right: 8px;" class="row-footer">
+              <a href="https://www.instagram.com/burhan.khair/"><img class="socials-logo"
+                  src="footer-icons/pinterest.png"></a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </footer>
+
+
+  <!-- ------------ -->
+
+</body>
+
+</html>
